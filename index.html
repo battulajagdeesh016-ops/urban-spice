@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Spice | Modern Indian Dining</title>
+<meta name="description" content="Urban Spice — modern Indian dining in Hyderabad. Reserve your table and explore our signature menu.">
+<style>
+:root{--bg:#10100f;--card:#191816;--cream:#f5efe3;--muted:#b9b0a1;--gold:#d8ad62;--line:#302e29}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Georgia,serif;background:var(--bg);color:var(--cream);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(16,16,15,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:1.35rem;letter-spacing:2px}.logo span{color:var(--gold)}
+.links{display:flex;gap:28px;font-family:Arial,sans-serif;font-size:.86rem}.links a:hover{color:var(--gold)}
+.btn{display:inline-block;padding:13px 22px;border:1px solid var(--gold);color:var(--cream);font-family:Arial,sans-serif;font-size:.85rem;letter-spacing:.5px;transition:.25s}.btn:hover{background:var(--gold);color:#111}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:120px 20px 70px;background:linear-gradient(rgba(10,10,9,.55),rgba(10,10,9,.78)),url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85") center/cover}
+.hero-inner{max-width:800px}.eyebrow{color:var(--gold);font:12px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(3.2rem,8vw,6.8rem);line-height:.95;font-weight:400;margin-bottom:24px}h2{font-size:clamp(2rem,4vw,3.3rem);font-weight:400;margin-bottom:14px}
+.hero p{max-width:620px;margin:0 auto 30px;color:#ddd4c6;font:16px/1.8 Arial,sans-serif}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+section{padding:100px 0}.intro{text-align:center;max-width:720px;margin:0 auto 50px}.intro p,.about p{color:var(--muted);font:15px/1.9 Arial,sans-serif}
+.menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.item{padding:24px;background:var(--card);border:1px solid var(--line)}.item-top{display:flex;justify-content:space-between;gap:20px}.item h3{font-size:1.2rem;font-weight:400}.price{color:var(--gold);white-space:nowrap}.item p{color:var(--muted);font:13px/1.7 Arial,sans-serif;margin-top:7px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about img{width:100%;height:500px;object-fit:cover}.about-copy p{margin:18px 0 25px}
+.gallery{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px}.gallery img{width:100%;height:230px;object-fit:cover}.gallery img:first-child{height:474px;grid-row:span 2}
+.review{background:#171614;text-align:center}.quote{max-width:700px;margin:auto;font-size:1.5rem;line-height:1.6}.stars{color:var(--gold);letter-spacing:5px;margin:18px 0 10px}.review small{color:var(--muted);font:12px Arial,sans-serif}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px}.contact-card{background:var(--card);padding:38px;border:1px solid var(--line)}.contact-card p{font:15px/2 Arial,sans-serif;color:var(--muted);margin:12px 0 25px}.contact-row{margin:14px 0}.contact-row strong{display:block;color:var(--cream);font:12px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase}.contact-row span{color:var(--muted);font:14px Arial,sans-serif}
+footer{border-top:1px solid var(--line);padding:28px 0;color:#817a70;font:12px Arial,sans-serif;text-align:center}
+@media(max-width:760px){.links{display:none}.menu-grid,.about,.visit{grid-template-columns:1fr}.about img{height:360px}.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{height:300px;grid-column:span 2;grid-row:auto}.gallery img{height:180px}section{padding:75px 0}}
+</style>
+</head>
+<body>
+<nav><div class="container nav"><a class="logo" href="#">URBAN <span>SPICE</span></a><div class="links"><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a></div><a class="btn" href="https://wa.me/919999999999?text=Hi%20Urban%20Spice%2C%20I'd%20like%20to%20reserve%20a%20table." target="_blank">Reserve</a></div></nav>
+
+<header class="hero"><div class="hero-inner"><div class="eyebrow">Modern Indian Dining · Hyderabad</div><h1>Flavour,<br>reimagined.</h1><p>Bold Indian flavours, elegant plates and a warm dining room — crafted for evenings worth remembering.</p><div class="actions"><a class="btn" href="#menu">Explore Menu</a><a class="btn" href="#visit">Find Us</a></div></div></header>
+
+<section id="menu"><div class="container"><div class="intro"><div class="eyebrow">Our Menu</div><h2>Made with intention.</h2><p>Seasonal ingredients, classic Indian techniques and a contemporary touch.</p></div>
+<div class="menu-grid">
+<div class="item"><div class="item-top"><h3>Truffle Malai Paneer</h3><span class="price">₹395</span></div><p>Charred paneer, truffle cream, smoked chilli.</p></div>
+<div class="item"><div class="item-top"><h3>Hyderabadi Lamb Shank</h3><span class="price">₹695</span></div><p>Slow-braised lamb, saffron rice, mint jus.</p></div>
+<div class="item"><div class="item-top"><h3>Coal-Roasted Chicken</h3><span class="price">₹525</span></div><p>48-hour marination, black garlic, coriander.</p></div>
+<div class="item"><div class="item-top"><h3>Saffron Prawn</h3><span class="price">₹625</span></div><p>Charred prawns, coconut, saffron and lime.</p></div>
+<div class="item"><div class="item-top"><h3>Burnt Garlic Naan</h3><span class="price">₹145</span></div><p>Clay-oven naan, roasted garlic butter.</p></div>
+<div class="item"><div class="item-top"><h3>Gulab Jamun Brûlée</h3><span class="price">₹295</span></div><p>Warm gulab jamun, vanilla custard, pistachio.</p></div>
+</div></div></section>
+
+<section id="about"><div class="container about"><img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1100&q=85" alt="Elegant restaurant interior"><div class="about-copy"><div class="eyebrow">Our Story</div><h2>Rooted in India.<br>Made for today.</h2><p>Urban Spice brings together the soul of Indian cooking and the energy of modern Hyderabad. Every plate is designed to feel familiar, yet entirely new.</p><p>Come for the food. Stay for the conversation.</p><a class="btn" href="#visit">Plan Your Visit</a></div></div></section>
+
+<section id="gallery"><div class="container"><div class="intro"><div class="eyebrow">The Experience</div><h2>A table worth sharing.</h2></div><div class="gallery">
+<img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1000&q=85" alt="Indian food">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=85" alt="Restaurant dining room">
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85" alt="Fresh dish">
+<img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=800&q=85" alt="Restaurant table">
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=85" alt="Dinner">
+</div></div></section>
+
+<section class="review"><div class="container"><div class="eyebrow">Guest Note</div><div class="stars">★★★★★</div><p class="quote">“Beautiful food, beautiful space, and flavours that actually surprise you. Urban Spice is now our favourite dinner spot.”</p><small>— Priya M., Hyderabad</small></div></section>
+
+<section id="visit"><div class="container visit"><div><div class="eyebrow">Visit Us</div><h2>Your table is waiting.</h2><p style="color:var(--muted);font:15px/1.8 Arial,sans-serif;margin-top:15px">Replace the details below with your client's real address, phone number and timings before delivery.</p></div>
+<div class="contact-card"><div class="contact-row"><strong>Address</strong><span>Banjara Hills, Hyderabad, Telangana</span></div><div class="contact-row"><strong>Hours</strong><span>Mon–Sun · 12:00 PM – 11:00 PM</span></div><div class="contact-row"><strong>Phone</strong><span>+91 99999 99999</span></div><a class="btn" href="https://wa.me/919999999999?text=Hi%20Urban%20Spice%2C%20I'd%20like%20to%20reserve%20a%20table." target="_blank">WhatsApp Us</a></div></div></section>
+
+<footer>© 2026 Urban Spice · Demo website created for presentation</footer>
+</body>
+</html>
